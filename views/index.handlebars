@@ -1,0 +1,16 @@
+<section class="py-2">
+  <div class="row mt-4">
+    <div class="col-md-6 text-center">
+      <h1 class="display-3 mt-3 pt-5">
+        Learn JS Ebook
+      </h1>
+      <p class="lead">The Complete Guide to JavaScript</p>
+      <form action="/charge" method="POST">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key={{stripePublishableKey}} data-amount="1500" data-name="Learn JS Ebook" data-description="Ebook written by Anis Alkomem" data-image="/img/marketplace.png"></script>
+      </form>
+    </div>
+    <div class="col-md-6">
+    <img src="/img/bookCover.png" width="250px" alt="" class="img-fluid">
+    </div>
+  </div>
+</section>
